@@ -7,6 +7,6 @@ public class DoTweenTest02: MonoBehaviour
 {
     void Start()
     {
-		this.transform.DOMoveX(5, 1f).SetDelay(0.4f).SetEase(Ease.OutBack);
+		this.transform.DOMoveX(5, 1f).SetEase(Ease.OutBack);
 	}
 }
